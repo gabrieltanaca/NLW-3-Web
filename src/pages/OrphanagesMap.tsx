@@ -32,9 +32,7 @@ export default function OrphanagesMap() {
     <div id="page-map">
       <aside>
         <header>
-          <button type="button" onClick={goBack}>
-            <FiArrowLeft size={24} color="#FFF" />
-          </button>
+          
           <img src={mapMarkerImg} alt="map-marker" />
 
           <h2>Escolha um orfanato no mapa</h2>
@@ -44,7 +42,11 @@ export default function OrphanagesMap() {
         <footer>
           <strong>São Vicente</strong>
           <span>São Paulo</span>
+          
         </footer>
+        <button type="button" onClick={goBack}>
+            <FiArrowLeft size={24} color="#FFF" />
+          </button>
       </aside>
 
       <Map

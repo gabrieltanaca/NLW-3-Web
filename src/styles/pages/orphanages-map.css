@@ -16,7 +16,7 @@
   justify-content: space-between;
 }
 
-#page-map aside header button {
+#page-map button {
   position: absolute;
 
   bottom: 32px;
@@ -26,6 +26,7 @@
   height: 48px;
 
   border: 0;
+  outline: none;
 
   background: #12AFCB;
   border-radius: 16px;
@@ -39,7 +40,7 @@
   align-items: center;
 }
 
-#page-map aside header button:hover {
+#page-map aside button:hover {
   background: #17D6EB;
 }
 
